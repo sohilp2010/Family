@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>My Family</title>
+    </head>
+    <script>
+ var images = ["https://www.google.com/imgres?imgurl=https%3A%2F%2Fgraphicriver.img.customer.envatousercontent.com%2Ffiles%2F301807601%2Fpreview_image.jpg%3Fauto%3Dcompress%252Cformat%26fit%3Dcrop%26crop%3Dtop%26w%3D590%26h%3D590%26s%3D18fc17bb213c0ed7d66d4271ee4245b9&imgrefurl=https%3A%2F%2Fgraphicriver.net%2Fgrandpa-and-cartoon-graphics-in-vectors&tbnid=BesEH5dx8jNltM&vet=12ahUKEwieorP_0JLwAhWCZ98KHSegBiAQMygAegUIARDJAQ..i&docid=tUD1Udhv3dlEpM&w=590&h=590&q=grandpa%20image%20cartoon&ved=2ahUKEwieorP_0JLwAhWCZ98KHSegBiAQMygAegUIARDJAQ","https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Fdjvstock%2Fdjvstock1807%2Fdjvstock180719805%2F114964492-cartoon-mom-icon-over-white-background-vector-illustration.jpg&imgrefurl=https%3A%2F%2Fwww.123rf.com%2Fphoto_114964492_stock-vector-cartoon-mom-icon-over-white-background-vector-illustration.html&tbnid=Hs5ilRN4-MKW4M&vet=12ahUKEwiW8omS0ZLwAhVNnuAKHQWgCOUQMygCegUIARDMAQ..i&docid=T7ZU2m-wfVEIjM&w=851&h=1300&q=mom%20image%20cartoon&ved=2ahUKEwiW8omS0ZLwAhVNnuAKHQWgCOUQMygCegUIARDMAQ","https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F87%2Fb8%2F3b%2F87b83ba77a10a1d3313ed7872918524d.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F565694403175767909%2F&tbnid=Oo-I9gMWcSLBTM&vet=12ahUKEwi227GH0ZLwAhUHZ98KHbYVBPYQMygLegUIARDlAQ..i&docid=IWq0pb0NjySm5M&w=384&h=1024&q=dad%20image%20cartoon&ved=2ahUKEwi227GH0ZLwAhUHZ98KHbYVBPYQMygLegUIARDlAQ"];
+var reasons = ["Grandpa","Mom","Dad"];
+var i=0;
+function nextSlide(){
+document.getElementById("album").src = images[i];
+document.getElementById("reason1").innerHTML = reasons[i];
+i++;
+}
+    </script>
+<body>
+    <h1>My Family</h1>
+    <label id="reason1">Grandpa</label>
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fgraphicriver.img.customer.envatousercontent.com%2Ffiles%2F301807601%2Fpreview_image.jpg%3Fauto%3Dcompress%252Cformat%26fit%3Dcrop%26crop%3Dtop%26w%3D590%26h%3D590%26s%3D18fc17bb213c0ed7d66d4271ee4245b9&imgrefurl=https%3A%2F%2Fgraphicriver.net%2Fgrandpa-and-cartoon-graphics-in-vectors&tbnid=BesEH5dx8jNltM&vet=12ahUKEwieorP_0JLwAhWCZ98KHSegBiAQMygAegUIARDJAQ..i&docid=tUD1Udhv3dlEpM&w=590&h=590&q=grandpa%20image%20cartoon&ved=2ahUKEwieorP_0JLwAhWCZ98KHSegBiAQMygAegUIARDJAQ" id="album">
+    <div><button onclick="NextSlide()">Next</button></div>
+</body>
+</html>
